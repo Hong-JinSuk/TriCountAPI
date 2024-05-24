@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: web
+    image: hjs/tricount
+    expose:
+      - "8080"
+    ports:
+      - "9805:8080"
